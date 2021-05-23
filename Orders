@@ -1,0 +1,23 @@
+Orders(){
+PROMPT ‘Customer_ID’
+GET Customer_ID
+Current_orders(){
+PROMPT productOrdered
+GET productOrdered 
+}
+Filled_orders(){
+GET Current_orders
+IF Current_order = ‘delivered’ 
+PRINT ‘Delivered’
+  		ELSE
+ PRINT ‘Waiting’
+ENDIF
+}
+Order_history(){
+GET Filled_orders
+IF Filled_orders=’delivered’
+PRINT Filled_orders
+ELSE
+PRINT NULL
+  ENDIF}
+END}
