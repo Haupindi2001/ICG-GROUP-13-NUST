@@ -1,0 +1,50 @@
+Weekly income(){
+}
+Start
+Case of income
+Sales made >sales not made: print “profit”
+Weekly income(no of sales made,no of sales not made){
+a=amount_paid
+b=product_price
+c=a-b
+}
+Endcase 
+Production cost(){
+}
+If production cost > profit made 
+Print “loss”
+Else
+Print “profit”
+Production cost(profit,production cost){
+D=profit
+E=production cost
+F=D-E
+}
+Sales made(){
+}
+Ab=no_of_sales
+AC=no_of_products
+BC=Ab-AC
+Prompt “no_of_sales”
+Prompt “no_of_products”
+Calculate AC
+Sales made(no_of_sales,no_of_sales){
+AB=no_of_sales
+AC=no_of_products
+BC=AC
+Print “these are the total sales made”
+}
+Monthly income(){
+}
+Monthly income=week1+week2+week3+week4
+Input income for all 4 weeks
+Calculate sum of weekly income
+Print monthly income
+Monthly income(week1,week2,week3,week4){
+W1=week1
+W2=week2
+W3=week3
+W4=week4
+MI=w1+w2+w3+w4
+Print Monthly income
+}
